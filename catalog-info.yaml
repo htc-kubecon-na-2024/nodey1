@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "nodey1"
+  annotations:
+    "humanitec.com/orgId": "kubecon-na-2024"
+    "humanitec.com/appId": "nodey1"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
